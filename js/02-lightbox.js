@@ -9,6 +9,5 @@ galleryItems.forEach(({ original, preview, description }) => {
 let lightbox = new SimpleLightbox(".gallery a", {
   captionSelector: "img",
   captionsData: "alt",
-  captionPosition: "bottom",
   captionDelay: 250,
 });
